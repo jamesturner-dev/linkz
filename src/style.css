@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #edeeef;
+}
+
+.cbContain {
+  min-height: 100%;
+  background-color: #fff;
+  padding: 1.25rem/* 20px */;
+  border-right-width: 4px;
+  border-top-left-radius: 0.5rem/* 8px */;
+  border-top-right-radius: 0.5rem/* 8px */;
+}
+
+.mainGrid{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem/* 24px */;
+}
+
+.mainContain {
+  flex: 1 1 0%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 56rem;
+  margin-top: 1.25rem;
+}
+
+.footerContain {
+  background-color: rgb(255 255 255);
+  padding: 1.25rem/* 20px */;
+  padding-top: 2.5rem/* 40px */;
+  border-right-width: 4px;
+  border-top-left-radius: 0.5rem/* 8px */;
+  border-top-right-radius: 0.5rem/* 8px */;
+}
+
+.cbWrap{
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.25rem/* 20px */;
+  padding-right: 1.25rem/* 20px */;
+}
+
+.cblink-input{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vue-tags-input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.responseCode {
+  font-size: 3rem/* 48px */;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: rgb(126 34 206);
+}
+
+.bigButton{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0.375rem/* 6px */;
+  border-width: 1px;
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  font-weight: 500;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.smallButton{
+  border-radius: 0.375rem/* 6px */;
+  padding: 0.25rem/* 4px */;
+  color: rgb(214, 214, 214);
+  font-weight: 500;
+  background-color: rgb(147 51 234);
+
+}
+
+.smallButton:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(126 34 206);
+}
+
+.primary{
+  background-color: rgb(147 51 234);
+  color: rgb(255 255 255);
+
+}
+
+.primary:hover{
+  background-color: rgb(126 34 206);
+  color: rgb(255 255 255);
+}
+
+.secondary{
+  background-color: rgb(243 232 255);
+  color: rgb(126 34 206);
+}
+
+.secondary:hover{
+  background-color: rgb(233 213 255);
+  color: rgb(80, 9, 142);
+}
+
+.cbSelect{
+  margin-top: 1.25rem/* 20px */;
+  margin-bottom: 1.25rem/* 20px */;
+  border-radius: 0.375rem/* 6px */;
+  border-width: 1px;
+  border-color: rgb(229 231 235);
+}
+
+.cbP{
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  font-weight: 500;
+  color: rgb(17 24 39);
+}
+
+.cbSub{
+  font-size: 0.75rem/* 12px */;
+  line-height: 1rem/* 16px */;
+  color: rgb(156 163 175);
+}
+
+.cbHeader{
+  text-align: center;
+  font-size: 1.875rem/* 30px */;
+  line-height: 2.25rem/* 36px */;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: rgb(107 114 128);
+}
+
+.cbMore{
+  text-align: center;
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  color: rgb(75 85 99);
+}
