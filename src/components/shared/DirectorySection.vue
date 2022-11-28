@@ -17,7 +17,7 @@ import LinkTags from "../dir/LinkTags.vue";
 const latestLinks = ref([]);
 
 const getLatestLinks = async () => {
-  const response = await fetch("http://cb.link/api/v1/links");
+  const response = await fetch("https://cb.link/api/v1/links");
   const data = await response.json();
   const _lyst = data.data; // this seems extra, without it results vary...
   _lyst.forEach((item) => {
