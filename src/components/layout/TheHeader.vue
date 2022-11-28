@@ -4,7 +4,7 @@
       <div class="flex-1">
         <div class="flex">
           <a href="/" class="flex">
-            <img class="h-12 mr-2"
+            <img class="h-12 mr-3"
               src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/d452e93d-ae61-44d5-9b0c-dba19a7f2500/public"
               alt="The Linkz Network" />
           </a>
