@@ -49,7 +49,7 @@ const isCurrent = (c) => {
 
 const tabs = [
   { name: "Home", href: "/", current: isCurrent("/") },
-  { name: "Admin", href: "/admin", current: isCurrent("/admin") },
+  // { name: "Admin", href: "/admin", current: isCurrent("/admin") },
   { name: "Submit Link", href: "/suggest", current: isCurrent("/suggest") },
   {
     name: "Get A Directory",

@@ -34,11 +34,21 @@ const cats = [
 const currentCat = ref(cats[0]);
 
 const handleSubmit = async () => {
+
   if (cbTitle.value === undefined || cbTitle.value === "") {
     swal.fire({
       icon: "error",
       title: "Oops...",
       text: "Please enter a Title",
+    });
+    return;
+  }
+
+  if (!cbURL.value.startsWith("http")) {
+    swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "URL must start with http or https",
     });
     return;
   }

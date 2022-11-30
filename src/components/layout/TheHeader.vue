@@ -3,19 +3,18 @@
     <div class="flex">
       <div class="flex-1">
         <div class="flex">
-          <a href="/" class="flex">
+          <a href="/">
             <img class="h-12 mr-3"
               src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/d452e93d-ae61-44d5-9b0c-dba19a7f2500/public"
               alt="The Linkz Network" />
           </a>
           <div>
-            <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-300 -mb-1">
+            <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-300">
               linkz<span class="text-purple-700">.</span>network 
             </h1>
-            <a class="text-gray-400 dark:text-gray-700 hover:text-black dark:hover:text-white"
-              href="https://github.com/jamesturner-dev/cb">
-              (<span class="text-xs">The Github Repository is Here</span>)
-            </a>
+            <div class="text-gray-400 dark:text-gray-700 text-xs">
+              Fresh Links, Great Sites, No Tracking.
+            </div>
           </div>
         </div>
       </div>
