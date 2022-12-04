@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-12 md:mt-0 ml-5 lg:ml-0">
-    <h3 class="text-sm font-medium text-gray-400">Categories:</h3>
+  <div class="ml-5">
+    <h3 class="text-sm font-medium text-gray-400">Tags:</h3>
     <ul role="list" class="mt-4 space-y-4">
       <li v-for="item in categories" :key="item.name">
         <a :href="item.href"
@@ -14,9 +14,9 @@
 
 <script setup>
 const categories =  [
-    { name: "Technology", href: "/cat/technology" },
-    { name: "News Services", href: "/cat/news" },
-    { name: "Online Services", href: "/cat/services" },
-    { name: "Podcasts", href: "/cat/podcast" },
+    { name: "The Media", href: "/tag/media" },
+    { name: "Culture", href: "/tag/culture" },
+    { name: "Podcasters", href: "/tag/podcaster" },
+    { name: "Health Links", href: "/tag/health" },
   ];
 </script>
